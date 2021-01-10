@@ -1,0 +1,18 @@
+<mat-card class="user">
+    <img src="../../assets/images/users.png" alt="user">  
+     <div class="user-content overflow-hidden">
+       <h2 class="user-title overflow-hidden">{{ user.name }}</h2>
+       <div class="user-address">
+        <mat-icon>email</mat-icon>{{ user.email }}
+    </div>
+       <div class="user-address">
+        <mat-icon>assignment_ind</mat-icon>{{ user.username }}
+       </div>
+   
+       <div class="user-actions u-mt-1">
+         <a class="u-round label user-actions-item u-cursor-pointer u-bg-secondary u-lnk-light u-hvr-alpha25" (click)="onEditUser()">edit</a>
+         <a class="u-round label user-actions-item u-cursor-pointer u-bg-error u-lnk-light u-hvr-alpha25" (click)="onDeleteUser()">delete</a>
+       </div>
+     </div>
+   </mat-card>
+   

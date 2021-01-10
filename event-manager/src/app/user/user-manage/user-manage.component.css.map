@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,IAAI;CACd",
+    "sources": [
+        "user-manage.component.scss"
+    ],
+    "names": [],
+    "file": "user-manage.component.css"
+}
